@@ -1,0 +1,26 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -BIN -LHF -DL -SSA -O11111114 -fo72 -N"E:\University of New Haven\Semester 2\Embedded Systems\Project 3\3C\Objective 2\Objective2.mcpar" -SP"D:\mikroC PRO for ARM\Defs\" -SP"D:\mikroC PRO for ARM\Uses\ST M3\" -SP"E:\University of New Haven\Semester 2\Embedded Systems\Project 3\3C\Objective 2\" -IP"D:\mikroC PRO for ARM\Uses\ST M3\" "Main.c" "Hardware.c" "PlayScreen.c" "GameOverScreen.c" "NextLevelScreen.c" "GameFinishedScreen.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_Sound.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl"	 
+diagnostics: 0	122	Compilation Started	hardware.h
+diagnostics: 143	123	Compiled Successfully	Main.c
+diagnostics: 0	122	Compilation Started	hardware.h
+diagnostics: 88	123	Compiled Successfully	Hardware.c
+diagnostics: 0	122	Compilation Started	hardware.h
+hint: 0	1004	interrupt handler (Timer1_IRQHandler at 0x0029)	PlayScreen.c
+hint: 0	1004	interrupt handler (TIMER3_ISR at 0x002D)	PlayScreen.c
+hint: 0	1004	interrupt handler (JoystickUp at 0x001A)	PlayScreen.c
+hint: 0	1004	interrupt handler (JoystickLeft at 0x0018)	PlayScreen.c
+hint: 0	1004	interrupt handler (EXTI9_5_IRQHandler at 0x0027)	PlayScreen.c
+diagnostics: 345	123	Compiled Successfully	PlayScreen.c
+diagnostics: 0	122	Compilation Started	hardware.h
+diagnostics: 21	123	Compiled Successfully	GameOverScreen.c
+diagnostics: 0	122	Compilation Started	hardware.h
+diagnostics: 15	123	Compiled Successfully	NextLevelScreen.c
+diagnostics: 0	122	Compilation Started	hardware.h
+diagnostics: 14	123	Compiled Successfully	GameFinishedScreen.c
+diagnostics: 0	127	All files Compiled in 188 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 364   Dynamic RAM (bytes): 65169	Static RAM (bytes): 364   Dynamic RAM (bytes): 65169
+hint: 0	1144	Used ROM (bytes): 19309 (7%)  Free ROM (bytes): 242835 (93%)	Used ROM (bytes): 19309 (7%)  Free ROM (bytes): 242835 (93%)
+diagnostics: 0	125	Project Linked Successfully	Objective2.mcpar
+diagnostics: 0	128	Linked in 187 ms	 
+diagnostics: 0	129	Project 'Objective2.mcpar' completed: 468 ms	 
+diagnostics: 0	103	Finished successfully: 16 Dec 2024, 17:54:09	Objective2.mcpar
