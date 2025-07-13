@@ -53,3 +53,38 @@ dkms.conf
 
 # debug information files
 *.dwo
+# Existing content ...
+
+# === ARM MCU / Embedded Build Artifacts ===
+*.bin
+*.hex
+*.lst
+*.map
+*.elf
+*.dct
+*.dlt
+*.dbg
+*.brk
+*.bmk
+*.emcl
+*.o
+*.a
+*.out
+*.obj
+
+# Build output directories
+/build/
+/Debug/
+/Release/
+
+# mikroC specific
+*.mcl
+*.emcl
+*.mikrocproj
+*.log
+
+# IDE and system files
+*.DS_Store
+*.vscode/
+*.idea/
+Thumbs.db
